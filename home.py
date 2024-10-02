@@ -5,7 +5,7 @@ tab1, tab2, tab3 = st.tabs(['About', 'Hobbies', 'Contact'])
 with tab1:
   col1, col2 = st.columns([0.3, 0.7])
   with col1:
-    st.image("/workspaces/codespaces-blank/pikachu.webp")
+    st.image("pikachu.webp")
   st.subheader("Sindhu Adhikari:sunglasses:")
 
   with col2:
